@@ -71,3 +71,6 @@ Query 9
 INSERT INTO students(degree_id, name, surname, date_of_birth, fiscal_code, enrolment_date, registration_number, email) VALUES (67,'Andrea','Dantuono','1988-06-12','DNTNDR88H112F839N','2024-09-12',19584590,'andrea.dantuono88@gmail.com');
 
 NB: non avendo letto correttamente la consegna, ho corretto la soluzione della query 9 secondo le istruzioni
+
+Query 10
+UPDATE teachers SET office_address = 126 WHERE name = 'Pietro' AND surname = 'Rizzo';
