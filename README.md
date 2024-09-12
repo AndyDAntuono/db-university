@@ -41,3 +41,10 @@ Query 3
 SELECT * 
 FROM students 
 WHERE YEAR(CURDATE()) - YEAR(date_of_birth) > 30;
+
+
+QuERY 4
+SELECT *
+FROM courses
+WHERE period LIKE 'I semestre'
+AND year = 1;
