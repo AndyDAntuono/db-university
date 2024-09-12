@@ -63,3 +63,6 @@ SELECT * FROM degrees WHERE level LIKE 'magistrale';
 
 Query 7
 SELECT COUNT(*) FROM departments;
+
+Query 8
+SELECT COUNT(*) FROM teachers WHERE phone IS NULL;
