@@ -68,6 +68,6 @@ Query 8
 SELECT COUNT(*) FROM teachers WHERE phone IS NULL;
 
 Query 9 
-INSERT INTO students (degree_id, name, surname, date_of_birth, fiscal_code, enrolment_date, registration_number, email) VALUES (66, 'Giannino', 'Stoppani', '20-09-1905', 'GNNSPP05P20D612Q', '02-03-1906', '00573262', 'gian.burrasca@gmail.com');
+INSERT INTO students(degree_id, name, surname, date_of_birth, fiscal_code, enrolment_date, registration_number, email) VALUES (67,'Andrea','Dantuono','1988-06-12','DNTNDR88H112F839N','2024-09-12',19584590,'andrea.dantuono88@gmail.com');
 
-NB: mi sono voluto divertire un po' iscrivendo Gian Burrasca all'università, ma spero di non aver compromesso l'esecuzione dell'esercizio per questo. :P
+NB: non avendo letto correttamente la consegna, ho corretto la soluzione della query 9 secondo le istruzioni
