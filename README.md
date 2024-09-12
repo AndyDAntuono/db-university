@@ -74,3 +74,6 @@ NB: non avendo letto correttamente la consegna, ho corretto la soluzione della q
 
 Query 10
 UPDATE teachers SET office_address = 126 WHERE name = 'Pietro' AND surname = 'Rizzo';
+
+Query 11
+DELETE FROM students WHERE name LIKE 'Andrea' AND surname LIKE 'Dantuono' AND date_of_birth LIKE '1988-06-12';
