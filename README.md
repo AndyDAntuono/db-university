@@ -36,3 +36,8 @@ Query 2
 SELECT *
 FROM courses
 WHERE cfu > 10;
+
+Query 3
+SELECT * 
+FROM students 
+WHERE YEAR(CURDATE()) - YEAR(date_of_birth) > 30;
