@@ -21,3 +21,9 @@ NB: dal momento che l'esercizio del 13-08-24 sono in realtà due esercizi, ho pr
   SELECT COUNT(*) AS teachers_quantity, office_address 
   FROM teachers 
   GROUP BY office_address;
+
+  Query 3 
+
+  SELECT AVG(vote) AS voto_medio, exam_id 
+  FROM exam_student 
+  GROUP BY exam_id;
