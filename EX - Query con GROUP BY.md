@@ -15,3 +15,9 @@ NB: dal momento che l'esercizio del 13-08-24 sono in realtà due esercizi, ho pr
   SELECT COUNT(*) AS number_students_for_year, YEAR(enrolment_date) AS enrolment_year 
   FROM students 
   GROUP BY YEAR(enrolment_date);
+
+  Query 2 
+
+  SELECT COUNT(*) AS teachers_quantity, office_address 
+  FROM teachers 
+  GROUP BY office_address;
