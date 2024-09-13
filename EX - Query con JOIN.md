@@ -30,3 +30,11 @@ NB: dal momento che l'esercizio del 13-08-24 sono in realtà due esercizi, ho pr
   FROM degrees JOIN departments ON degrees.department_id = departments.id 
   WHERE departments.name = 'Dipartimento di Neuroscienze' 
   AND degrees.level = 'magistrale';
+
+  Query 3
+
+  SELECT courses.name AS corsi_di_Fuvio_Amato
+  FROM courses
+  JOIN course_teacher ON courses.id = course_teacher.course_id
+  JOIN teachers ON teachers.id = course_teacher.teacher_id
+  WHERE teachers.id = 44
