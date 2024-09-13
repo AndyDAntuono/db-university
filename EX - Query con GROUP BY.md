@@ -22,8 +22,14 @@ NB: dal momento che l'esercizio del 13-08-24 sono in realtà due esercizi, ho pr
   FROM teachers 
   GROUP BY office_address;
 
-  Query 3 
+  Query 3 (per sbaglio ho scritto "Query 1" anziche "Query 3" nel push precedente)
 
   SELECT AVG(vote) AS voto_medio, exam_id 
   FROM exam_student 
   GROUP BY exam_id;
+
+  Query 4
+
+  SELECT COUNT(*) AS degrees_number, department_id 
+  FROM degrees 
+  GROUP BY department_id;
