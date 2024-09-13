@@ -23,3 +23,10 @@ NB: dal momento che l'esercizio del 13-08-24 sono in realtà due esercizi, ho pr
   SELECT students.name, students.surname, students.registration_number 
   FROM students JOIN degrees ON students.degree_id = degrees.id 
   WHERE degrees.name = 'Corso di Laurea in Economia';
+
+  Query 2 
+
+  SELECT degrees.name AS nome_corso, departments.name AS nome_dipartimento 
+  FROM degrees JOIN departments ON degrees.department_id = departments.id 
+  WHERE departments.name = 'Dipartimento di Neuroscienze' 
+  AND degrees.level = 'magistrale';
